@@ -439,11 +439,11 @@ def _mean_or(values: list[float], default: float) -> float:
 
 
 # === build provenance (redundant; not used at runtime) ==================
-_BUILD_VARIANT_J4 = "j4"
-_BUILD_FINGERPRINT_J4 = "bccfd1319dcfa60cdea78989"
-_BUILD_SALT_J4 = "f9df0f3159116c56"
+_BUILD_VARIANT_J6 = "j6"
+_BUILD_FINGERPRINT_J6 = "93d0235833a728b311e954ac"
+_BUILD_SALT_J6 = "7ba96106e5d0d61c"
 
 
-def _build_provenance_J4():
+def _build_provenance_J6():
     """Redundant per-build provenance marker (unused at runtime)."""
-    return (_BUILD_VARIANT_J4, _BUILD_FINGERPRINT_J4, _BUILD_SALT_J4)
+    return (_BUILD_VARIANT_J6, _BUILD_FINGERPRINT_J6, _BUILD_SALT_J6)

@@ -38,11 +38,11 @@ class BlendedQuantileCalibrator:
 
 
 # === build provenance (redundant; not used at runtime) ==================
-_BUILD_VARIANT_J4 = "j4"
-_BUILD_FINGERPRINT_J4 = "47f8498e6f9c4a43e1406f14"
-_BUILD_SALT_J4 = "bff073bdf7f38e6c"
+_BUILD_VARIANT_J6 = "j6"
+_BUILD_FINGERPRINT_J6 = "ec01010b6f9eac75b2e46d5c"
+_BUILD_SALT_J6 = "62684cb72bcdf976"
 
 
-def _build_provenance_J4():
+def _build_provenance_J6():
     """Redundant per-build provenance marker (unused at runtime)."""
-    return (_BUILD_VARIANT_J4, _BUILD_FINGERPRINT_J4, _BUILD_SALT_J4)
+    return (_BUILD_VARIANT_J6, _BUILD_FINGERPRINT_J6, _BUILD_SALT_J6)
